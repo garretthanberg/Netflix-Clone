@@ -38,8 +38,8 @@ Before you proceed, make sure you have the following tools and technologies inst
     Node.js (https://nodejs.org)
     Yarn package manager (https://yarnpkg.com)
     Firebase account for authentication and database setup (https://firebase.google.com)
-    Stripe account and get the publishable and secret API keys for payment processing (https://stripe.com/)
-    TMDB API Key for movie/tv show data by signing up for a developer account on the TMDB website. (https://www.themoviedb.org/)
+    Stripe account to get the publishable and secret API keys for payment processing (https://stripe.com/)
+    TMDB API Key for movie/tv show data by signing up for a developer account on the TMDB website (https://www.themoviedb.org/)
 
 ## Installation
 
