@@ -57,9 +57,7 @@ function PlansScreen() {
 
       console.log("Document reference:", docRef);
 
-      const stripe = await loadStripe(
-        "pk_test_51NfYtXKRXwAXPZ7p08lavG9PvJ89OYFw9zHBB9oflIdWvIg1IzoEOiONJ9w1Z9kIHkWE6T5dkj95kj2wIdvNDYe900U9HvcsN9"
-      );
+      const stripe = await loadStripe("");
 
       const sessionId = docRef.id;
 
