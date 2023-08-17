@@ -69,7 +69,7 @@ $ yarn start
 ```
 
 <p align="center">
-  <img src="https://github.com/garretthanberg/Netflix-Clone/assets/115447682/520b0d33-0a94-4324-9b60-6b85fc3dcf74" alt="screenshot">
+  <img src="https://github.com/garretthanberg/Netflix-Clone/assets/115447682/470ded6b-ff60-4958-8e6b-ef2bdf808038" alt="screenshot">
 </p>
 
 ## Contributing
