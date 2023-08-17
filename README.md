@@ -1,46 +1,95 @@
-# Getting Started with Create React App and Redux
+<h1 align="center">
+  Netflix Clone with React, Firebase, Redux, Stripe, Google Auth and TMDB API.
+  <br>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#features">Features</a> •
+  <a href="#prerequisites">Prerequisites</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
+</p>
 
-## Available Scripts
+<p align="center">
+  <img src="https://github.com/garretthanberg/Netflix-Clone/assets/115447682/c712d081-04ca-457a-bcd5-0f193e7ddb93" alt="screenshot">
+</p>
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+This project is a Netflix clone built using a combination of modern web development technologies. It aims to replicate the core functionalities of the Netflix streaming service, including user authentication, payment processing using Stripe, and more. The project utilizes React, Redux, Firebase, Stripe Checkout & Webhooks, Google Authentication, TMDB API, and Yarn.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project was crafted with a focus on learning and skill development, serving as an educational exercise. It's important to clarify that it's not intended for commercial use, but rather designed to showcase the integration of various technologies within a real-world context.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+* User authentication using Google Authentication.
+* Dynamic content fetching from TMDB API.
+* Secure payment processing using Stripe Checkout & Webhooks.
+* State management with Redux for efficient data handling.
+* Real-time data storage and retrieval using Firestore/Firebase.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a id="prerequisites"></a>
+## Prerequisites
 
-### `npm run build`
+Before you proceed, make sure you have the following tools and technologies installed on your system:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Node.js (https://nodejs.org)
+    Yarn package manager (https://yarnpkg.com)
+    Firebase account for authentication and database setup (https://firebase.google.com)
+    Stripe account and get the publishable and secret API keys for payment processing (https://stripe.com/)
+    TMDB API Key for movie/tv show data by signing up for a developer account on the TMDB website. (https://www.themoviedb.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run the Netflix clone on your local machine, follow these steps:
 
-### `npm run eject`
+```bash
+# Clone this repository:
+$ git clone https://github.com/garretthanberg/Netflix-Clone.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Go into the repository:
+$ cd Netflix-Clone 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Install dependencies using Yarn:
+$ yarn install
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Create a Firebase project and set up the necessary configurations (authentication, Firestore, and set up the Stripe extention).
+# Replace the Firebase config in firebase.js with your credentials.
+# Add your TMDB API Key in Requests.js.
+# And your Stripe Publishable Key in PlansScreen.js.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Run the development server:
+$ yarn start
+```
+
+<p align="center">
+  <img src="https://github.com/garretthanberg/Netflix-Clone/assets/115447682/520b0d33-0a94-4324-9b60-6b85fc3dcf74" alt="screenshot">
+</p>
+
+## Contributing
+
+Contributions to the project are welcome and encouraged! If you find any bugs or want to add new features, please create an issue or submit a pull request. Please make sure to follow the project's code of conduct.
+
+1. Fork the repository
+2. Create your branch: git checkout -b feature/YourFeature
+3. Commit your changes: git commit -m 'Add YourFeature'
+4. Push to the branch: git push origin feature/YourFeature
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+I hope you enjoy using my Netflix clone! If you have any questions or need assistance, feel free to contact me.
+
+> Portfolio [garretthanberg.com](https://www.garretthanberg.com) &nbsp;&middot;&nbsp;
+> GitHub [@garretthanberg](https://github.com/garretthanberg) &nbsp;&middot;&nbsp;
+> LinkedIn [Garrett Hanberg](https://www.linkedin.com/in/garrett-hanberg/) 
