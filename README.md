@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/garretthanberg/Netflix-Clone/assets/115447682/c712d081-04ca-457a-bcd5-0f193e7ddb93" alt="screenshot">
+  <img src="https://github.com/garretthanberg/Netflix-Clone/assets/115447682/72dffe34-beab-4670-a313-bb0d22368c2b" alt="screenshot">
 </p>
 
 ## Introduction
