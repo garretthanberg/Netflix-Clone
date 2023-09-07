@@ -1,5 +1,5 @@
 <h1 align="center">
-  Netflix Clone with React, Firebase, Redux, Stripe, Google Auth and TMDB API.
+  Netflix Clone with React, Firebase, Redux, Stripe, Google Auth and TMDB API
   <br>
 </h1>
 
